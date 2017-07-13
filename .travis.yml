@@ -1,5 +1,9 @@
 language: "php"
 
+addons:
+  code_climate:
+    repo_token: 7200f3ac9aab067d6a3c75ddf45f1cadbfb0ee1f9ef902f4e2d005a2511c5745
+
 php:
   - 5.4
   - 5.5
@@ -14,6 +18,5 @@ before_script:
 script: 
 - "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
 
-after_script:
-- CODECLIMATE_REPO_TOKEN="7200f3ac9aab067d6a3c75ddf45f1cadbfb0ee1f9ef902f4e2d005a2511c5745" vendor/bin/test-reporter --stdout > codeclimate.json
-- "sh -c 'if [ \"$TRAVIS_PHP_VERSION\" != \"hhvm\" ]; then curl -X POST -H \"Accept: application/vnd.api+json\" -H \"X-CC-Test-Reporter-Id: 7200f3ac9aab067d6a3c75ddf45f1cadbfb0ee1f9ef902f4e2d005a2511c5745\" -d @codeclimate.json https://api.codeclimate.com/v1/test_reports ; fi'"
+after_success:
+  - vendor/bin/test-reporter
