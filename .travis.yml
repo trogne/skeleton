@@ -16,4 +16,4 @@ script:
 
 after_script:
 - CODECLIMATE_REPO_TOKEN="7200f3ac9aab067d6a3c75ddf45f1cadbfb0ee1f9ef902f4e2d005a2511c5745" vendor/bin/test-reporter --stdout > codeclimate.json
-- "sh -c 'if [ \"$TRAVIS_PHP_VERSION\" != \"hhvm\" ]; then curl -X POST -H \"Accept: application/vnd.api+json\" -H \"X-CC-Test-Reporter-Id: {cc_test_reporter_id}\" -d @codeclimate.json https://api.codeclimate.com/v1/test_reports ; fi'"
+- curl -X POST -H \"Accept: application/vnd.api+json\" -H \"X-CC-Test-Reporter-Id: 7200f3ac9aab067d6a3c75ddf45f1cadbfb0ee1f9ef902f4e2d005a2511c5745\" -d @codeclimate.json https://api.codeclimate.com/v1/test_reports

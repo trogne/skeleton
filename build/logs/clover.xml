@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1499976662">
-  <project timestamp="1499976662">
+<coverage generated="1499976993">
+  <project timestamp="1499976993">
     <package name="Dracony\skeleton">
       <file name="D:\htdocs\phpixie\skeleton\src/hello.php">
         <class name="Hello" namespace="Dracony\skeleton">
-          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
         </class>
-        <line num="7" type="method" name="world" crap="1" count="1"/>
-        <line num="9" type="stmt" count="1"/>
-        <metrics loc="11" ncloc="11" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        <line num="7" type="method" name="world" crap="2" count="0"/>
+        <line num="8" type="stmt" count="0"/>
+        <line num="9" type="stmt" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <metrics loc="11" ncloc="11" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
       </file>
     </package>
-    <metrics files="1" loc="11" ncloc="11" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    <metrics files="1" loc="11" ncloc="11" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
   </project>
 </coverage>
