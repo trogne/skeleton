@@ -1,0 +1,9 @@
+{
+	"autoload": {
+		"psr-4": {
+			"Dracony\\skeleton\\" : "src/",	
+			"Dracony\\skeleton\\Tests\\" : "tests/"	
+		}
+	}
+}
+
