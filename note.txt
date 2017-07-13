@@ -18,3 +18,14 @@ phpunit --coverage-text
 
 
 
+git add . -A
+    -A : shorthand to track all currently untracked files
+    -a : commit all the changes in currently existing files 
+    
+git commit -m "Added Hello class"
+
+git commit --ammend
+    rename to "Initial setup"
+    
+
+
