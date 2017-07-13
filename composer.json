@@ -7,7 +7,7 @@
 	"authors": [
 		{
 			"name": "Dracony",
-			"email" : "))"
+			"email" : "patrick.fiset@gmail.com"
 		}
 	],
 	"autoload": {
@@ -15,6 +15,8 @@
 			"Dracony\\skeleton\\" : "src/",	
 			"Dracony\\skeleton\\Tests\\" : "tests/"	
 		}
+	},
+	"require-dev": {
+		"codeclimate/php-test-reporter": "dev-master"
 	}
 }
-

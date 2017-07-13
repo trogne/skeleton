@@ -26,6 +26,7 @@ git commit -m "Added Hello class"
 
 git commit --ammend
     rename to "Initial setup"
-    
 
+
+https://docs.codeclimate.com/docs/test-coverage-php
 

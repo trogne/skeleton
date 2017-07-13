@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @covers DefaultClass \Dracony\skeleton\Hello
+ * @coversDefaultClass \Dracony\skeleton\Hello
  */
 class HelloTest extends \PHPUnit_Framework_TestCase
 {
