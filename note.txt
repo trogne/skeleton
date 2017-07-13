@@ -24,7 +24,7 @@ git add . -A
     
 git commit -m "Added Hello class"
 
-git commit --ammend
+git commit --amend
     rename to "Initial setup"
 
 
