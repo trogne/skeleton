@@ -1,4 +1,15 @@
 {
+	"name": "dracony/skeleton",
+	"description": "Skeleton project",
+	"license": "BSD-3-Clause",
+	"type": "library",
+	"keywords": ["demo"],
+	"authors": [
+		{
+			"name": "Dracony",
+			"email" : "))"
+		}
+	],
 	"autoload": {
 		"psr-4": {
 			"Dracony\\skeleton\\" : "src/",	
