@@ -30,3 +30,10 @@ git commit --amend
 
 https://docs.codeclimate.com/docs/test-coverage-php
 
+CODECLIMATE_REPO_TOKEN=<token> ./vendor/bin/test-reporter
+
+ouf...
+\PHPUnit_Framework_TestCase to \PHPUnit\Framework\TestCase
+
+mais marche pas local, juste 
+
