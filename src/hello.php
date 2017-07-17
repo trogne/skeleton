@@ -1,6 +1,6 @@
 <?php
 
-namespace Dracony\skeleton;
+namespace Dracony\Skeleton;
 
 class Hello
 {
