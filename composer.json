@@ -3,7 +3,7 @@
 	"description": "Skeleton project",
 	"license": "BSD-3-Clause",
 	"type": "library",
-	"keywords": ["demo"],
+	"keywords": ["skeleton"],
 	"authors": [
 		{
 			"name": "Dracony",
