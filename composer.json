@@ -1,5 +1,5 @@
 {
-	"name": "dracony/skeleton",
+	"name": "Dracony/Skeleton",
 	"description": "Skeleton project",
 	"license": "BSD-3-Clause",
 	"type": "library",
@@ -12,8 +12,8 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Dracony\\skeleton\\" : "src/",	
-			"Dracony\\skeleton\\Tests\\" : "tests/"	
+			"Dracony\\Skeleton\\" : "src/",	
+			"Dracony\\Skeleton\\Tests\\" : "tests/"	
 		}
 	},
 	"require-dev": {
