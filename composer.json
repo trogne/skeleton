@@ -10,6 +10,9 @@
 			"email" : "patrick.fiset@gmail.com"
 		}
 	],
+   "require": {
+       "phpunit/phpunit": "5.4.*"
+   },	
 	"autoload": {
 		"psr-4": {
 			"Dracony\\Skeleton\\" : "src/",	
