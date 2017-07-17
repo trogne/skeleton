@@ -1,3 +1,8 @@
+***
+https://adamwathan.me/2014/12/28/test-coverage-with-code-climate-and-travis-ci/
+***
+
+
 <phpunit bootstrap="./tests/phpunit.php">
     <testsuite name="unit">
         <directory>./tests</directory>
@@ -36,4 +41,9 @@ ouf...
 \PHPUnit_Framework_TestCase to \PHPUnit\Framework\TestCase
 
 mais marche pas local, juste 
+
+
+git remote set-url origin git+ssh://git@github.com/username/reponame.git
+
+
 

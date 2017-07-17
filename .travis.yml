@@ -1,22 +1,10 @@
-language: "php"
-
-addons:
-  code_climate:
-    repo_token: 7200f3ac9aab067d6a3c75ddf45f1cadbfb0ee1f9ef902f4e2d005a2511c5745
+language: php
 
 php:
-  - 5.4
-  - 5.5
-  - 5.6
-  - 7.0 
-  - hhvm
+    - 5.3
+    - 5.4
+    - 5.5
 
-before_script: 
-- "composer require codeclimate/php-test-reporter --dev"
-- "composer install"
+install: composer install --dev
 
-script: 
-- "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
-
-after_success:
-  - vendor/bin/test-reporter
+after_script: ./codeclimate.sh

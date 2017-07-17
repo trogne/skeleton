@@ -3,6 +3,7 @@
 /**
  * @coversDefaultClass \Dracony\skeleton\Hello
  */
+//class HelloTest extends \PHPUnit_Framework_TestCase  //marche local, mais pas remote
 class HelloTest extends \PHPUnit\Framework\TestCase
 {
     protected $hello;
