@@ -11,7 +11,7 @@ class HelloTest extends \PHPUnit_Framework_TestCase
     
     public function setUp()
     {
-        //$this->hello = new \Dracony\Skeleton\Hello();
+        $this->hello = new \Dracony\Skeleton\Hello();
     }
     
     /**
@@ -19,7 +19,6 @@ class HelloTest extends \PHPUnit_Framework_TestCase
      */
     public function testWorld()
     {
-        $this->hello = new \Dracony\Skeleton\Hello();
         $this->assertSame('world', $this->hello->world());
     }
 }
