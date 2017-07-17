@@ -1,10 +1,8 @@
 <?php
-namespace Dracony\Skeleton;
-
-require_once(__DIR__.'/../vendor/autoload.php');
+//require_once(__DIR__.'/../vendor/autoload.php');
 
 /**
- * @coversDefaultClass \Dracony\skeleton\Hello
+ * @coversDefaultClass \Dracony\Skeleton\Hello
  */
 class HelloTest extends \PHPUnit_Framework_TestCase
 //class HelloTest extends \PHPUnit\Framework\TestCase
