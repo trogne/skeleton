@@ -1,5 +1,4 @@
 <?php
-namespace Dracony\Skeleton;
 //require_once(__DIR__.'/../vendor/autoload.php');
 
 /**
@@ -12,7 +11,7 @@ class HelloTest extends \PHPUnit_Framework_TestCase
     
     public function setUp()
     {
-        $this->hello = new Hello();
+        $this->hello = new \Dracony\Skeleton\Hello();
     }
     
     /**

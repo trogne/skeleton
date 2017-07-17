@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1500309676">
-  <project timestamp="1500309676">
+<coverage generated="1500310865">
+  <project timestamp="1500310865">
     <package name="Dracony\Skeleton">
-      <file name="D:\htdocs\phpixie\skeleton\src/Hello.php">
+      <file name="D:\htdocs\phpixie\skeleton\Src/Hello.php">
         <class name="Hello" namespace="Dracony\Skeleton">
           <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
