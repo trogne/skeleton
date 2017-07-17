@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1500303030">
-  <project timestamp="1500303030">
+<coverage generated="1500303619">
+  <project timestamp="1500303619">
     <package name="Dracony\skeleton">
       <file name="D:\htdocs\phpixie\skeleton\src/hello.php">
         <class name="Hello" namespace="Dracony\skeleton">
