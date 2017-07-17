@@ -1,5 +1,7 @@
 <?php
-//require_once(__DIR__.'/../vendor/autoload.php');
+namespace Dracony\Skeleton;
+
+require_once(__DIR__.'/../vendor/autoload.php');
 
 /**
  * @coversDefaultClass \Dracony\skeleton\Hello
