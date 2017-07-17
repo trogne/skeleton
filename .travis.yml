@@ -7,4 +7,7 @@ php:
 
 install: composer install --dev
 
+script: 
+- "phpunit --bootstrap ./tests/phpunit.php --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
+
 after_script: ./codeclimate.sh
