@@ -1,5 +1,6 @@
 ***
 https://adamwathan.me/2014/12/28/test-coverage-with-code-climate-and-travis-ci/
+marche pas non plus
 ***
 
 
@@ -44,6 +45,12 @@ mais marche pas local, juste
 
 
 git remote set-url origin git+ssh://git@github.com/username/reponame.git
+
+
+
+git add . -A
+git commit -m "allo"
+git push origin master
 
 
 
