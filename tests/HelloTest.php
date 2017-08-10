@@ -1,6 +1,6 @@
 <?php
-namespace Dracony\Skeleton\Tests;
-require_once(__DIR__.'/../vendor/autoload.php');
+//namespace Dracony\Skeleton\Tests;
+//require_once(__DIR__.'/../vendor/autoload.php');
 /**
  * @coversDefaultClass \Dracony\Skeleton\Hello
  */
