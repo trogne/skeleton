@@ -4,8 +4,8 @@
 /**
  * @coversDefaultClass \Dracony\Skeleton\Hello
  */
-class HelloTest extends \PHPUnit_Framework_TestCase
-//class HelloTest extends \PHPUnit\Framework\TestCase
+//class HelloTest extends \PHPUnit_Framework_TestCase
+class HelloTest extends \PHPUnit\Framework\TestCase
 {
     protected $hello;
     
