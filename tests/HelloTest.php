@@ -11,7 +11,7 @@ class HelloTest extends \PHPUnit\Framework\TestCase
     
     public function setUp()
     {
-        $this->hello = new \Dracony\Skeleton\Hello;
+        $this->hello = new \Dracony\Skeleton\Hello();
     }
     
     /**

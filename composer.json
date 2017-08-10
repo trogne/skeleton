@@ -12,8 +12,8 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Dracony\\Skeleton\\" : "Src/",	
-			"Dracony\\Skeleton\\Tests\\" : "Tests/"	
+			"Dracony\\Skeleton\\" : "src/",	
+			"Dracony\\Skeleton\\Tests\\" : "tests/"	
 		}
 	},
 	"require-dev": {
